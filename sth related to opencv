@@ -1,3 +1,20 @@
-Create Image
+opencv3.4.3+cmake+cuda
+1. download source file
+2. new folder - build
+3. cmake - grouped - configure
+4. with cuda
+5. generate
+6. all build / install - debug + release
+7. enviroment variables
+
+
+
+Create Image:
 IplImage *m_pFrame1 = cvCreateImage(cvSize(Width, Height), IPL_DEPTH_8U, 1);
 Mat frame1 = Mat(Height, Width, CV_8UC1, Scalar(0, 0, 0));
+
+
+#include "opencv2/core/cuda.hpp"
+using namespace cv;
+using namespace cv::cuda;
+int num_devices = getCudaEnabledDeviceCount();
