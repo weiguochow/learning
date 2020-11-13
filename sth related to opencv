@@ -1,12 +1,12 @@
-opencv3.4.3+cmake+cuda:
+opencv3.4.3+cmake3.13.1+cuda10.0:
 
-1. install VS2013
+1. Install VS2013
 2. CUDA10.0
 3. cmake - grouped - configure
-4. with cuda
+4. with cuda - configure
 5. generate
-6. all build / install - debug + release
-7. enviroment variables
+6. Open OpenCV project, all/install build -debug + release
+7. enviroment variables, OpenCV+CUDA
 Note:
 Do not try to compile opencv 2.x.x with cuda 9+!
 Visual studio 2013 works fine.
@@ -21,8 +21,6 @@ Mat frame1 = Mat(Height, Width, CV_8UC1, Scalar(0, 0, 0));
 using namespace cv;
 using namespace cv::cuda;
 int num_devices = getCudaEnabledDeviceCount();
-
-
 
 
         C1      C2      C3      C4
