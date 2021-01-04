@@ -1,5 +1,7 @@
 opencv3.4.3+cmake3.13.1+cuda10.0:
 
+QT5.9.8
+
 1. Install VS2013
 2. CUDA10.0
 3. cmake - grouped - configure
