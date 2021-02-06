@@ -13,6 +13,12 @@ Note:
 Do not try to compile opencv 2.x.x with cuda 9+!
 Visual studio 2013 works fine.
 
+opencv + 3rdParty 放置D盘
+
+其它软件安装默认C盘
+
+参考RTXstation的路径
+
 
 Create Image:
 IplImage *m_pFrame1 = cvCreateImage(cvSize(Width, Height), IPL_DEPTH_8U, 1);
