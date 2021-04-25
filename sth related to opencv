@@ -1,8 +1,8 @@
-opencv3.4.3+cmake3.13.1+cuda10.0:
+opencv3.4.10+cmake3.20.1+cuda10.0:
 
 QT5.9.8
 
-1. Install VS2013
+1. Install VS2017
 2. CUDA10.0
 3. cmake - grouped - configure
 4. with cuda - configure
@@ -14,7 +14,7 @@ PCL加入C盘的3rdpartyBIN文件路径
 FLIR加入D盘的3rdparty的bin路径到环境变量
 Note:
 Do not try to compile opencv 2.x.x with cuda 9+!
-Visual studio 2013 works fine.
+Visual studio 2017 works fine.
 
 opencv + 3rdParty 放置D盘
 
