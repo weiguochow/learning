@@ -11,6 +11,9 @@ QT5.9.8
 7. enviroment variables, OpenCV+CUDA
 PCL加入C盘的3rdpartyBIN文件路径
 
+lemar
+https://yanqs.blog.csdn.net/article/details/51076333?utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7EBlogCommendFromMachineLearnPai2%7Edefault-8.control&dist_request_id=1332041.24449.16193479142891231&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7EBlogCommendFromMachineLearnPai2%7Edefault-8.control
+
 FLIR加入D盘的3rdparty的bin路径到环境变量
 Note:
 Do not try to compile opencv 2.x.x with cuda 9+!
