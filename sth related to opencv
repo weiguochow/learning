@@ -2,7 +2,7 @@ opencv3.4.10+cmake3.20.1+cuda10.0:
 
 QT5.9.8
 
-1. Install VS2017
+1. Install VS2013
 2. CUDA10.0
 3. cmake - grouped - configure
 4. with cuda - configure
